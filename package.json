@@ -1,7 +1,7 @@
 {
   "name": "emojisearch1",
   "version": "0.1.0",
-  "homepage": "https://nebolisa.github.io/remoji-search-class",
+  "homepage": "https://nebolisa.github.io/emoji-search-class",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,8 +16,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
